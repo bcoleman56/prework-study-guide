@@ -15,15 +15,17 @@ function selectTopic() {
         console.log("Let's study CSS!");
     } else if (randomTopic === 'Git') {
         console.log("Let's study Git");
-    } else if (randomTopic === 'JavaScript!') {
+    } else if (randomTopic === 'JavaScript') {
         console.log("Let's study JavaScript!");
     } else {
         console.log('Please try again!');
     }
 }
 
-listTopics()
-selectTopic()
+console.log('Here are the topics we learned throught Prework:');
+listTopics();
+console.log('Which topic should we study first?');
+selectTopic();
 
 
 
